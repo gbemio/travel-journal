@@ -13,6 +13,7 @@ body {
   width: 550px;
   height: 55px;
   background: #f55a5a;
+  margin-bottom: 45px;
 }
 
 .nav--group {
@@ -31,4 +32,93 @@ body {
   color: #ffffff;
   width: 109px;
   height: 16px;
+}
+
+.des--section {
+  display: flex;
+  margin-left: 40px;
+}
+
+.subsection1 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 19px;
+  text-align: left;
+  padding-block: 19px;
+}
+
+.subsection2 {
+  display: flex;
+  align-items: center;
+  padding-bottom: 7px;
+}
+
+.location--img,
+.country,
+.map--link,
+.des--location,
+.date,
+.description {
+  margin: 0px;
+}
+
+.cover--img {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+
+.country {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2b283a;
+  padding-inline: 4px 12px;
+}
+
+.map--link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918e9b;
+}
+
+.des--location {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2b283a;
+  width: 326px;
+  height: 40px;
+}
+
+.date {
+  width: 319px;
+  height: 11px;
+  padding-block: 7px 9px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #2b283a;
+}
+
+.description {
+  width: 326px;
+  height: 45px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #2b283a;
 }
